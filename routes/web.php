@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('doctors','doctorController@index');
+Route::get('service','doctorController@reverse');
+Route::get('nobat','reportController@nobatList');
