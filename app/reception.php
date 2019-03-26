@@ -11,4 +11,8 @@ class reception extends Model
     {
         return $this->belongsTo('App\service');
     }
+    public  function patient()
+    {
+        return $this->belongsTo('App\patient','codemelli','codemelli');
+    }
 }

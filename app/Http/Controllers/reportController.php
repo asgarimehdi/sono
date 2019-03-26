@@ -12,7 +12,9 @@ class reportController extends Controller
 {
     //
     public function nobatList(){
-        $reception = reception::findOrFail(1);
-        dd($reception->service->name);
+        $reception = reception::where('price', '!=', '')->where('report', '=', '')->get();
+
+        $patient=$reception[0]->patient;
+        echo $patient->name.' '.$patient->family;
     }
 }
