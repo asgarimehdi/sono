@@ -1,0 +1,46 @@
+html{
+ direction:rtl;
+}
+body {
+ background-image: url("../img/coffee-4.jpg");
+
+}
+.table{
+
+	 direction:rtl;
+	 text-align:right;
+	 font-family:b yekan;
+	 text-align:center;
+	 opacity: .8;
+}
+th{
+	color:white;
+	font-family:b titr;
+	text-align:center;
+}
+.jumbotron{
+	
+	opacity: .8;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.jumbotron-heading{
+	
+	font-size:5vw;
+	font-family:b koodak;
+	color:#444;
+}
+.card{
+
+	opacity: .85;
+	
+}
+.navbar{
+
+	opacity: .85;
+	
+}

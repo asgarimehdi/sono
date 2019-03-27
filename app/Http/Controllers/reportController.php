@@ -16,10 +16,10 @@ class reportController extends Controller
             ->where('price', '!=', '')
             ->where('report', '=', '')
             ->skip('0')
-            ->take('5')
+            ->take('7')
             ->distinct()
             ->get();
 
-        return view('nobat',compact('reception'));
+        return view('welcome',compact('reception'));
     }
 }
